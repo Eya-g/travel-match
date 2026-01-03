@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TravelMatch - Connexion</title>
+    <link rel="stylesheet" href="/css/styleAuth.css" />
+
+    <style>
+      .left {
+        background-image: url("../assets/login.jpg");
+      }
+    </style>
+  </head>
+
+  <body>
+    <a href="index.html" class="back-home">← Retour à l'acceuil</a>
+    <div class="session">
+      <div class="left"></div>
+      <form id="loginForm" class="log-in" autocomplete="off">
+        <h4>Bienvenue sur TravelMatch</h4>
+        <p>Connectez-vous pour découvrir vos destinations</p>
+
+        <div class="floating-label">
+          <input
+            placeholder=" "
+            type="email"
+            name="email"
+            id="loginEmail"
+            required
+          />
+          <label for="email">Email</label>
+        </div>
+
+        <div class="floating-label">
+          <input
+            placeholder=" "
+            type="password"
+            name="password"
+            id="loginPassword"
+            required
+          />
+          <label for="password">Mot de passe</label>
+        </div>
+
+        <!--notification alert-->
+        <a href="#" id="forgotLink" class="discrete">Mot de passe oublié ?</a>
+
+        <button type="submit">S'inscrire</button>
+        <a href="Register.html" class="discrete"
+          >Vous n'avez pas de compte ? Rejoignez-nous !
+        </a>
+      </form>
+    </div>
+    <div id="notification" class="notif">
+      <span class="notif-text"
+        >Un email de réinitialisation vous a été envoyé.</span
+      >
+    </div>
+
+    <script src="../js/auth.js"></script>
+  </body>
+</html>

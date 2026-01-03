@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TravelMatch - Inscription</title>
+    <link rel="stylesheet" href="/css/styleAuth.css" />
+    <style>
+      .left {
+        background-image: url("../assets/register.jpg");
+      }
+    </style>
+  </head>
+
+  <body>
+    <a href="index.html" class="back-home">← Retour à l'acceuil</a>
+    <div class="session">
+      <div class="left"></div>
+      <form id="registerForm" class="sign-up" autocomplete="off">
+        <h4>Rejoignez TravelMatch</h4>
+        <p>Créez votre compte et commencez votre aventure</p>
+
+        <div class="floating-label">
+          <input placeholder=" " type="text" name="name" id="name" required />
+          <label for="name">Nom complet</label>
+        </div>
+
+        <div class="floating-label">
+          <input
+            placeholder=" "
+            type="email"
+            name="email"
+            id="email"
+            required
+          />
+          <label for="email">Email</label>
+        </div>
+
+        <div class="floating-label">
+          <input
+            placeholder=" "
+            type="password"
+            name="password"
+            id="password"
+            required
+          />
+          <label for="password">Mot de passe</label>
+        </div>
+
+        <div class="floating-label">
+          <input
+            placeholder=" "
+            type="password"
+            name="confirm-password"
+            id="confirm"
+            required
+          />
+          <label for="confirm-password">Confirmer le mot de passe</label>
+        </div>
+
+        <button type="submit">S'inscrire</button>
+        <a href="login.html" class="discrete">Déjà un compte ? Se connecter</a>
+      </form>
+    </div>
+
+    <script type="module" src="../js/auth.js"></script>
+  </body>
+</html>

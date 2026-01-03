@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Résultat - TravelMatch</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/styleChoose.css" />
+  </head>
+
+  <body>
+    <!-- Overlay for background -->
+    <div class="overlay"></div>
+
+    <!-- Back Button -->
+    <div class="container mt-4">
+      <a href="index.html" class="btn btn-outline-light back-btn">
+        ← Retour à l'acceuil
+      </a>
+    </div>
+
+    <!-- Results Container -->
+    <div class="container main-container results-container">
+      <h2 class="text-center mb-4">Votre destination idéale</h2>
+
+      <div class="destination-card">
+        <h3 id="destName" class="destination-title mb-3 text-center"></h3>
+
+        <div class="destination-image-wrapper mb-4">
+          <img
+            id="destImg"
+            src=""
+            class="img-fluid rounded destination-image mx-auto d-block"
+            alt="Destination"
+          />
+        </div>
+
+        <div class="action-buttons">
+          <a href="choose.html" class="btn btn-primary btn-lg w-100 mb-3">
+            <i class="fas fa-redo me-2"></i>Recommencer
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Font Awesome for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <script src="../js/travel.js"></script>
+  </body>
+</html>
