@@ -1,12 +1,12 @@
 # travel-match
 Front-end project: Travel destination matcher using HTML, CSS, and JS
 
-# Overview
+<h2> Overview</h2>
 Travel Match is a front-end web application that helps users discover their ideal travel destination based on their budget, travel duration, and type of holiday.
 
 The project uses a simple yet effective JavaScript matching algorithm to recommend destinations tailored to user preferences.
 
-# Features 
+<h2>Features</h2>
 
     * Simple login interface
     * Budget selection
@@ -15,7 +15,7 @@ The project uses a simple yet effective JavaScript matching algorithm to recomme
     * Smart destination matching logic
     * Clean and responsive UI
 
-# Technologies Used
+<h2>Technologies Used</h2>h2>
 
     * HTML5 – structure
 
@@ -23,7 +23,7 @@ The project uses a simple yet effective JavaScript matching algorithm to recomme
 
     * JavaScript (Vanilla) – logic and matching algorithm
 
-# How It Works
+<h2>How It Works</h2>
 
 1- User logs into the application
 
@@ -39,11 +39,11 @@ The project uses a simple yet effective JavaScript matching algorithm to recomme
 
 4- The app displays the best-matched travel destination
 
-#  Live Demo
+<h2>Live Demo</h2>
 https://eya-g.github.io/travel-match/
 
 
-# Purpose of This Project
+<h2>Purpose of This Project</h2>
 
 This project was built to:
 
@@ -55,7 +55,7 @@ This project was built to:
 
     * Learn Git & GitHub workflow
 
-# Future Improvements
+<h2>Future Improvements</h2>
 
     * Add more destinations and scoring logic
 
