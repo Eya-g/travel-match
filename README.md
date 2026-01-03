@@ -11,7 +11,7 @@ The project uses a simple yet effective JavaScript matching algorithm to recomme
     * Simple login interface
     * Budget selection
     * Travel duration input
-    * Mood-based travel preference (relax, adventure, culture,   luxirious,etc)
+    * Mood-based travel preference (relax, adventure, culture,   luxurious, etc)
     * Smart destination matching logic
     * Clean and responsive UI
 
@@ -38,10 +38,6 @@ The project uses a simple yet effective JavaScript matching algorithm to recomme
 3- The algorithm analyzes the inputs
 
 4- The app displays the best-matched travel destination
-
-<h2>Live Demo</h2>
-https://eya-g.github.io/travel-match/
-
 
 <h2>Purpose of This Project</h2>
 
