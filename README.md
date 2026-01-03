@@ -1,7 +1,5 @@
 # travel-match
 Front-end project: Travel destination matcher using HTML, CSS, and JS
-# travel-match
-Front-end project: Travel destination matcher using HTML, CSS, and JS
 
 # Overview
 Travel Match is a front-end web application that helps users discover their ideal travel destination based on their budget, travel duration, and type of holiday.
